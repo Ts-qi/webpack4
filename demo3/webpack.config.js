@@ -10,7 +10,7 @@ module.exports = {
     filename:'[name].js'
   },
   plugins: [
-    new CleanWebpackPlugin(),//默认情况下，此插件将删除 webpack output.path目录中的所有文件，以及每次成功重建后所有未使用的 webpack 资产。
+    new CleanWebpackPlugin(),   //默认情况下，此插件将删除 webpack output.path目录中的所有文件，以及每次成功重建后所有未使用的 webpack 资产。
   ],
 }
 
