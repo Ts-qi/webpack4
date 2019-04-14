@@ -1,0 +1,1 @@
+console.log('这是 webpack4 打包的默认入口的 js');
