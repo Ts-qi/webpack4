@@ -15,7 +15,8 @@
     开发模式：此时运行 npm run dev  会打包 ， 打出来的包很在4kb 左右； 但是代码莫有压缩, <br>
     生产模式：运行npm run build 打出来的包，更小； 只有900字节左右； 对比发现： 包的体积很小，优化方面比较的给力;代码就会压缩；
 #### demo3 
-    1 利用插件clean-webpack-plugin 清除以前打包的文件；就是将删除webpack output.path目录中的所有文件
+    1 利用插件clean-webpack-plugin 清除以前打包的文件；就是将删除webpack output.path目录中的所有文件,
+      保证打包的文件是最新的；
 
 
 
