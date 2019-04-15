@@ -30,6 +30,16 @@
     5 @babel/polyfill: ES6 内置方法和函数转化垫片；Babel 默认只转换新的 JavaScript 句法（syntax），而不转换新的 API，比如 Iterator、Generator、Set、Maps、Proxy、     Reflect、Symbol、Promise 等全局对象，以及一些定义在全局对象上的方法（比如 Object.assign）都不会转码。必须使用 @babel/polyfill，为当前环境提供一个垫片。
       所谓垫片也就是垫平不同浏览器或者不同环境下的差异;
 
+      6 browserslistrc 用于在不同前端工具之间共享目标浏览器和 Node.js 版本的配置;
+        # 所支持的浏览器版本
+
+        > 1% # 全球使用情况统计选择的浏览器版本
+
+        last 2 version # 每个浏览器的最后两个版本
+
+        not ie <= 8 # 排除小于 ie8 以下的浏览器
+
+
 
 ## 注意点：
 
