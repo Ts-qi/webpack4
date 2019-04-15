@@ -3,7 +3,7 @@
     [
       "@babel/preset-env",
       {
-        "useBuiltIns": "usage"
+        "useBuiltIns": "usage",//使用项目用到的包；其他没有用到的就不进行编译
       }
     ]
   ],
