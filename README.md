@@ -18,7 +18,18 @@
     1 利用插件clean-webpack-plugin 清除以前打包的文件；就是将删除webpack output.path目录中的所有文件,
       保证打包的文件是最新的；
 
+#### demo4
+    1 babel-laoder 是webapck 的一个加载器，用于将 es6以及以上版本转义为 es5；
 
+    2 babel-core 的作用是把 js 代码分析成 ast ，方便各个插件分析语法进行相应的处理；
+
+    3 @babel/preset-env: 包含 ES6、7 等版本的语法转化规则；
+
+    4 @babel/plugin-transform-runtime: 避免 polyfill 污染全局变量，减小打包体积；
+
+    5 @babel/polyfill: ES6 内置方法和函数转化垫片；
+
+    6 babel-loader: 负责 ES6 语法转化；
 
 
 ## 注意点：
