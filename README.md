@@ -27,9 +27,8 @@
 
     4 @babel/plugin-transform-runtime: 避免 polyfill 污染全局变量，减小打包体积；
 
-    5 @babel/polyfill: ES6 内置方法和函数转化垫片；
-
-    6 babel-loader: 负责 ES6 语法转化；
+    5 @babel/polyfill: ES6 内置方法和函数转化垫片；Babel 默认只转换新的 JavaScript 句法（syntax），而不转换新的 API，比如 Iterator、Generator、Set、Maps、Proxy、     Reflect、Symbol、Promise 等全局对象，以及一些定义在全局对象上的方法（比如 Object.assign）都不会转码。必须使用 @babel/polyfill，为当前环境提供一个垫片。
+      所谓垫片也就是垫平不同浏览器或者不同环境下的差异;
 
 
 ## 注意点：
